@@ -1,0 +1,1 @@
+{"cost": 40604.95, "flavor": "verilog", "part_name": "xcau7p-sbvc484-2-e", "adder_size": 1, "carry_size": -1, "latency": 21, "reg_bits": 51612, "clock_period": 3, "latency_cutoff": 3, "clock_uncertainty": 0.0, "io_delay_min": 0.2, "io_delay_max": 0.4}

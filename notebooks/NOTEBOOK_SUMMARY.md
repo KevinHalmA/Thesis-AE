@@ -5,11 +5,10 @@ to map an **HGQ-\*** model (Table III) onto an FPGA by offloading lookups→BRAM
 adders→DSP (bit-exact). Shared method + model registry: [`_fit_common.py`](_fit_common.py). Full
 method writeup: [`README.md`](README.md).
 
-## The five fit notebooks
+## The four fit notebooks
 
 | Notebook (folder) | Mode | Part | Target | clk / cutoff | What it demonstrates |
 |---|---|---|---|---|---|
-| `HGQ-LUT_jsc-plf_32p-16f` | fit −15% | `xczu7ev` (ref) | 21,495 LUT (0.85 × 25,288) | 2.5 ns / 3.1 | Pack the 16-feature GNN jet classifier into ~15% fewer LUTs on the paper's reference board. |
 | `HGQ-LUT_jsc-plf_32p-3f` | fit **exact part** | `xcau7p-sbvc484-2-e` (Artix US+) | 37,440 LUT / 108 BRAM / 216 DSP | 3.0 ns / 2.5 | Squeeze the 3-feature GNN (41,594 LUT) onto a real part it *overflows* — a true LUT↔BRAM multi-resource fit. |
 | `HGQ-Hybrid_tgc_1.90mrad` | fit −15% | `xczu7ev` (ref) | 26,020 LUT (0.85 × 30,612) | 6.25 ns / 8 | Muon-tracking 1.90 mrad operating point, −15% LUTs. |
 | `HGQ-Hybrid_tgc_2.03mrad` | fit −15% | `xczu7ev` (ref) | 16,683 LUT (0.85 × 19,627) | 6.25 ns / 12 | Muon-tracking 2.03 mrad, −15% LUTs. |
