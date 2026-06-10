@@ -1,0 +1,48 @@
+{
+  "model": "HGQ-Hybrid \u2014 Muon tracking, 1.90 mrad",
+  "family": "tgc",
+  "part": "xczu7ev-ffvc1156-2-e",
+  "part_capacity": {
+    "lut": 230400,
+    "ff": 460800,
+    "bram": 312,
+    "dsp": 1728
+  },
+  "constraint": "lut_0.85x_baseline",
+  "clock_period_ns": 6.25,
+  "latency_cutoff_ns": 8,
+  "baseline_lut_tableIII": 30612,
+  "budget": {
+    "lut": 26020,
+    "ff": 460800,
+    "bram": 312,
+    "dsp": 1728
+  },
+  "usable_after_margins": {
+    "lut": 26020.0,
+    "ff": 460800.0,
+    "bram": 312.0,
+    "dsp": 1728.0
+  },
+  "lut_budget": 26020,
+  "comb_cost": 37762.7,
+  "a0_predicted_lut": 29958.728000000003,
+  "feasible": true,
+  "binding": [],
+  "chosen_config": "bram(7, 5)_dsp-",
+  "predicted": {
+    "lut": 24440.733285792303,
+    "ff": 10782.901668874172,
+    "bram": 109.5,
+    "dsp": 0.0,
+    "latency": 12
+  },
+  "confirm": {
+    "lut": 25133.0,
+    "ff": 11064.0,
+    "bram": 109.5,
+    "dsp": 0.0,
+    "wns": 0.041,
+    "fmax": 161.05653084232566
+  }
+}

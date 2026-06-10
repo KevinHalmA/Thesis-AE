@@ -1,0 +1,7 @@
+label,bram_base,dsp_adder_bo,dsp_adder_clocked,lut_total,lut_logic,lut_memory,ff,bram_tile,bram_ramb18_used,bram_ramb36_used,dsp,dsp_promoted_ir,dsp_inferred_vivado,cycles,latency_ns,wns_pp,fmax_pp_MHz,wns_pr,fmax_pr_MHz,status,bit_exact_passed,predicate
+bram_7_5__boNone,"(7, 5)",,False,33094.0,30101.0,2993.0,45236.0,99.5,195.0,2.0,0.0,0,0.0,30,79.64999999999999,-0.091,385.95137012736393,-0.155,376.64783427495297,routing_fail,True,"(7, 5), bo=nan, clocked=False"
+bram_7_5__bo15_clocked,"(7, 5)",15.0,True,34138.0,28738.0,5400.0,46494.0,101.0,198.0,2.0,148.0,196,148.0,44,106.26,0.043,407.00040700040705,0.085,414.0786749482402,met,True,"(7, 5), bo=15.0, clocked=True"
+bram_7_5__bo11_clocked,"(7, 5)",11.0,True,46556.0,25696.0,20860.0,29898.0,100.5,197.0,2.0,674.0,797,674.0,77,191.653,0.022,403.55125100887807,0.011,401.76777822418643,met,True,"(7, 5), bo=11.0, clocked=True"
+bram_6_3__boNone,"(6, 3)",,False,30548.0,27417.0,3131.0,42017.0,257.0,510.0,2.0,0.0,0,0.0,31,84.63,-0.241,364.83035388544323,-0.23,366.3003663003663,routing_fail,True,"(6, 3), bo=nan, clocked=False"
+bram_6_3__bo15_clocked,"(6, 3)",15.0,True,31984.0,26293.0,5691.0,44253.0,257.5,511.0,2.0,148.0,196,148.0,48,118.08,0.02,403.2258064516129,0.04,406.5040650406504,met,True,"(6, 3), bo=15.0, clocked=True"
+bram_6_3__bo11_clocked,"(6, 3)",11.0,True,44804.0,23429.0,21375.0,30551.0,258.5,513.0,2.0,674.0,797,674.0,85,211.395,0.003,400.48057669203047,0.013,402.0908725371934,met,True,"(6, 3), bo=11.0, clocked=True"

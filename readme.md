@@ -1,5 +1,17 @@
 # HGQ-LUT Reproduction Repository
 
+> **Thesis artifact.** This repository extends the HGQ-LUT reproduction package
+> with the experiments of the MEng thesis *Pipeline-Stage-Aware Resource Mapping
+> for HGQ-LUT FPGA Inference*: post-trace BRAM/DSP promotion passes and the
+> `da4ml.pack` predictive part fitter. The thesis experiments live under
+> [`notebooks/`](notebooks/) — see
+> [`notebooks/NOTEBOOK_SUMMARY.md`](notebooks/NOTEBOOK_SUMMARY.md) (auto-fit of the
+> published models) and
+> [`notebooks/HGQ-LUT_jsc-plf_64p-16f/README.md`](notebooks/HGQ-LUT_jsc-plf_64p-16f/README.md)
+> (the headline N=64 experiments). They require the patched da4ml fork
+> (https://github.com/KevinHalmA/da4ml, results produced at commit `df88697`)
+> instead of the pip release. The base reproduction flow below is unchanged.
+
 ## Requirements
 
 - HGQ-LUT supported integrated in `HGQ2>=0.1.6` and `da4ml>=0.5.1` (installable via pip)
