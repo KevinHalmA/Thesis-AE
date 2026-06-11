@@ -1,0 +1,29 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date         : Thu Jun 11 21:16:21 2026
+| Host         : KHA-PC running 64-bit Ubuntu 25.10
+| Command      : report_utilization -hierarchical -file /tmp/jsc_relaxed_10_10/output_jsc/reports/jsc_post_place_util.rpt
+| Design       : jsc
+| Device       : xczu7ev-ffvc1156-2-e
+| Speed File   : -2
+| Design State : Physopt postPlace
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------+--------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| Instance | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | URAM | DSP Blocks |
++----------+--------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| jsc      |  (top) |      36431 |      35667 |       0 |  764 | 19620 |      1 |      1 |    0 |          0 |
++----------+--------+------------+------------+---------+------+-------+--------+--------+------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

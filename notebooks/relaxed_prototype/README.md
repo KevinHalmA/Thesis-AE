@@ -10,6 +10,7 @@ default (`relaxed=False`) staging.
 
 | directory | backs |
 |---|---|
+| `worked_example_10_10__relaxed/` | thesis Table 3.2's relaxed worked-example row — the single widest lookup promoted under relaxed staging at the loose 5 ns target (reports + metadata; the default and baseline rows come from `../HGQ-LUT_jsc-plf_64p-16f/bram_grid_unpaired/sweep_metrics.csv`). |
 | `HGQ-LUT_jsc-plf_64p-16f_bram_7_5/` | thesis Table 3.2 — default-vs-relaxed `bram(7,5)` (pair-packed, zero DSP) at the tight 2.5 ns target, plus the run reports (`bram_7_5__{default,relaxed}/`, pruned to reports + metadata). The notebook also carries the cocotb bit/latency-exactness gate. |
 | `HGQ-LUT_jsc-plf_32p-3f/` | thesis §3.3 fitter-evidence table — N=32 F=3 `xcau7p` squeeze refit under relaxed staging (`fit.ipynb`, `SUMMARY.md`, `result.json`, `fit_front.csv`; `_fit_work/` pruned to reports). |
 | `HGQ-Hybrid_tgc_2.28mrad/` | thesis §3.3 fitter-evidence table — TGC 2.28 mrad refit under relaxed staging (same layout). |
