@@ -1,0 +1,1 @@
+{"cost": 35402.65, "flavor": "verilog", "part_name": "xczu7ev-ffvc1156-2-e", "adder_size": 1, "carry_size": -1, "latency": 22, "reg_bits": 47603, "clock_period": 2.5, "latency_cutoff": 2, "clock_uncertainty": 0.0, "io_delay_min": 0.2, "io_delay_max": 0.4}

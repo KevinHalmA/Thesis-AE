@@ -1,0 +1,218 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date              : Thu Jun 11 21:32:10 2026
+| Host              : KHA-PC running 64-bit Ubuntu 25.10
+| Command           : report_timing -sort_by group -max_paths 100 -path_type summary -file /home/kevin/Dev/Imperial/HGQ-LUT-AE/test_notebooks/bram_7_5__default/epoch=4433-val_acc=0.817-ebops=40646-val_loss=0.534/output_jsc/reports/jsc_post_route_timing_paths.rpt
+| Design            : jsc
+| Device            : xczu7ev-ffvc1156
+| Speed File        : -2  PRODUCTION 1.30 05-15-2022
+| Design State      : Routed
+| Temperature Grade : E
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[11]
+                                                              -0.155        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[12]
+                                                              -0.154        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[11]
+                                                              -0.144        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[12]
+                                                              -0.138        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[11]
+                                                              -0.121        
+stage17_inp_reg[442]/C         stage18/op_pair_38_71/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.120        
+stage17_inp_reg[442]/C         stage18/op_pair_38_71/reg_a_reg/ADDRARDADDR[9]
+                                                              -0.113        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[12]
+                                                              -0.112        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[10]
+                                                              -0.107        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[10]
+                                                              -0.104        
+stage17_inp_reg[442]/C         stage18/op_pair_17_73/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.103        
+stage17_inp_reg[330]/C         stage18/op_93/readout_reg/ADDRARDADDR[11]
+                                                              -0.102        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[10]
+                                                              -0.099        
+stage17_inp_reg[442]/C         stage18/op_pair_17_73/reg_a_reg/ADDRARDADDR[9]
+                                                              -0.096        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[9]
+                                                              -0.094        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[12]
+                                                              -0.092        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[9]
+                                                              -0.092        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.089        
+stage17_inp_reg[330]/C         stage18/op_93/readout_reg/ADDRARDADDR[12]
+                                                              -0.088        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.088        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[11]
+                                                              -0.086        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[7]
+                                                              -0.083        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[8]
+                                                              -0.082        
+stage17_inp_reg[330]/C         stage18/op_97/readout_reg/ADDRARDADDR[10]
+                                                              -0.080        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[11]
+                                                              -0.080        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[7]
+                                                              -0.079        
+stage17_inp_reg[330]/C         stage18/op_93/readout_reg/ADDRARDADDR[13]
+                                                              -0.071        
+stage17_inp_reg[330]/C         stage18/op_97/readout_reg/ADDRARDADDR[13]
+                                                              -0.071        
+stage17_inp_reg[330]/C         stage18/op_101/readout_reg/ADDRARDADDR[14]
+                                                              -0.063        
+stage17_inp_reg[330]/C         stage18/op_95/readout_reg/ADDRARDADDR[10]
+                                                              -0.061        
+stage17_inp_reg[330]/C         stage18/op_99/readout_reg_1/ADDRARDADDR[13]
+                                                              -0.056        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[12]
+                                                              -0.056        
+stage17_inp_reg[330]/C         stage18/op_93/readout_reg/ADDRARDADDR[10]
+                                                              -0.055        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRBWRADDR[11]
+                                                              -0.052        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRBWRADDR[10]
+                                                              -0.050        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[9]
+                                                              -0.047        
+stage17_inp_reg[330]/C         stage18/op_99/readout_reg_0/ADDRARDADDR[14]
+                                                              -0.046        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRARDADDR[11]
+                                                              -0.045        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[9]
+                                                              -0.044        
+stage17_inp_reg[330]/C         stage18/op_85/readout_reg/ADDRARDADDR[11]
+                                                              -0.044        
+stage17_inp_reg[330]/C         stage18/op_95/readout_reg/ADDRARDADDR[13]
+                                                              -0.043        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.043        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[9]
+                                                              -0.042        
+stage17_inp_reg[330]/C         stage18/op_99/readout_reg_1/ADDRARDADDR[12]
+                                                              -0.041        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[6]
+                                                              -0.039        
+stage17_inp_reg[330]/C         stage18/op_pair_9_22/reg_a_reg/ADDRBWRADDR[10]
+                                                              -0.038        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[6]
+                                                              -0.037        
+stage17_inp_reg[330]/C         stage18/op_87/readout_reg/ADDRARDADDR[4]
+                                                              -0.036        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[6]
+                                                              -0.034        
+stage17_inp_reg[442]/C         stage18/op_pair_17_73/reg_a_reg/ADDRARDADDR[6]
+                                                              -0.030        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[7]
+                                                              -0.029        
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.026        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[8]
+                                                              -0.025        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRBWRADDR[9]
+                                                              -0.022        
+stage17_inp_reg[510]/C         stage18/op_pair_38_71/reg_a_reg/ADDRBWRADDR[10]
+                                                              -0.020        
+stage17_inp_reg[330]/C         stage18/op_85/readout_reg/ADDRARDADDR[12]
+                                                              -0.019        
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRARDADDR[11]
+                                                              -0.018        
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRBWRADDR[10]
+                                                              -0.017        
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRBWRADDR[11]
+                                                              -0.016        
+stage17_inp_reg[330]/C         stage18/op_97/readout_reg/ADDRARDADDR[12]
+                                                              -0.012        
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[7]
+                                                              -0.010        
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[7]
+                                                              -0.009        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRBWRADDR[7]
+                                                              -0.009        
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRBWRADDR[8]
+                                                              -0.009        
+stage17_inp_reg[330]/C         stage18/op_pair_9_22/reg_a_reg/ADDRBWRADDR[8]
+                                                              -0.004        
+stage17_inp_reg[330]/C         stage18/op_101/readout_reg/ADDRARDADDR[11]
+                                                              -0.003        
+stage17_inp_reg[330]/C         stage18/op_97/readout_reg/ADDRARDADDR[11]
+                                                              -0.003        
+stage17_inp_reg[330]/C         stage18/op_pair_9_22/reg_a_reg/ADDRBWRADDR[9]
+                                                              -0.003        
+stage17_inp_reg[330]/C         stage18/op_101/readout_reg/ADDRARDADDR[13]
+                                                              -0.002        
+stage17_inp_reg[330]/C         stage18/op_101/readout_reg/ADDRARDADDR[9]
+                                                              -0.001        
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRBWRADDR[8]
+                                                              -0.001        
+stage17_inp_reg[330]/C         stage18/op_93/readout_reg/ADDRARDADDR[7]
+                                                              0.000         
+stage17_inp_reg[442]/C         stage18/op_pair_38_71/reg_a_reg/ADDRARDADDR[6]
+                                                              0.000         
+stage6_inp_reg[747]/C          stage7/v163_reg[4]/D           0.002         
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[8]
+                                                              0.005         
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRBWRADDR[8]
+                                                              0.005         
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRARDADDR[4]
+                                                              0.008         
+stage17_inp_reg[442]/C         stage18/op_pair_38_71/reg_a_reg/ADDRARDADDR[8]
+                                                              0.008         
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[6]
+                                                              0.009         
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[6]
+                                                              0.009         
+stage17_inp_reg[330]/C         stage18/op_pair_89_91/reg_a_reg/ADDRARDADDR[3]
+                                                              0.009         
+stage17_inp_reg[330]/C         stage18/op_pair_9_22/reg_a_reg/ADDRARDADDR[10]
+                                                              0.010         
+stage17_inp_reg[442]/C         stage18/op_pair_17_73/reg_a_reg/ADDRARDADDR[7]
+                                                              0.011         
+stage17_inp_reg[442]/C         stage18/op_pair_38_71/reg_a_reg/ADDRARDADDR[7]
+                                                              0.011         
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRBWRADDR[7]
+                                                              0.012         
+stage17_inp_reg[330]/C         stage18/op_pair_55_57/reg_a_reg/ADDRARDADDR[7]
+                                                              0.012         
+stage17_inp_reg[510]/C         stage18/op_pair_17_73/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.013         
+stage17_inp_reg[330]/C         stage18/op_101/readout_reg/ADDRARDADDR[12]
+                                                              0.016         
+stage17_inp_reg[330]/C         stage18/op_85/readout_reg/ADDRARDADDR[10]
+                                                              0.018         
+stage17_inp_reg[330]/C         stage18/op_pair_9_22/reg_a_reg/ADDRARDADDR[9]
+                                                              0.018         
+stage17_inp_reg[442]/C         stage18/v47_reg[4]/D           0.021         
+stage17_inp_reg[330]/C         stage18/op_pair_9_22/reg_a_reg/ADDRBWRADDR[7]
+                                                              0.021         
+stage17_inp_reg[330]/C         stage18/op_85/readout_reg/ADDRARDADDR[7]
+                                                              0.022         
+stage17_inp_reg[330]/C         stage18/op_pair_68_75/reg_a_reg/ADDRARDADDR[7]
+                                                              0.022         
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRBWRADDR[5]
+                                                              0.022         
+stage17_inp_reg[510]/C         stage18/op_77/readout_reg/ADDRARDADDR[10]
+                                                              0.022         
+stage17_inp_reg[330]/C         stage18/op_95/readout_reg/ADDRARDADDR[12]
+                                                              0.023         
+stage17_inp_reg[330]/C         stage18/op_101/readout_reg/ADDRARDADDR[10]
+                                                              0.023         
+stage17_inp_reg[330]/C         stage18/op_97/readout_reg/ADDRARDADDR[9]
+                                                              0.024         
+stage17_inp_reg[330]/C         stage18/op_pair_81_83/reg_a_reg/ADDRARDADDR[5]
+                                                              0.025         
+
+
+

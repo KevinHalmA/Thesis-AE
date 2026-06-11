@@ -1,0 +1,191 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date              : Thu Jun 11 21:31:38 2026
+| Host              : KHA-PC running 64-bit Ubuntu 25.10
+| Command           : report_timing -sort_by group -max_paths 100 -path_type summary -file /home/kevin/Dev/Imperial/HGQ-LUT-AE/test_notebooks/bram_7_5__relaxed/epoch=4433-val_acc=0.817-ebops=40646-val_loss=0.534/output_jsc/reports/jsc_post_route_timing_paths.rpt
+| Design            : jsc
+| Device            : xczu7ev-ffvc1156
+| Speed File        : -2  PRODUCTION 1.30 05-15-2022
+| Design State      : Routed
+| Temperature Grade : E
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+stage6/v8_reg[1]/C             stage7/op_9/readout_reg/ADDRARDADDR[10]
+                                                              -0.258        
+stage6/v8_reg[1]/C             stage7/op_pair_29_45/reg_a_reg/ADDRARDADDR[10]
+                                                              -0.133        
+stage6/v8_reg[1]/C             stage7/op_pair_29_45/reg_a_reg/ADDRARDADDR[9]
+                                                              -0.128        
+stage6/v8_reg[1]/C             stage7/op_9/readout_reg/ADDRARDADDR[9]
+                                                              -0.122        
+stage6/v8_reg[1]/C             stage7/op_pair_29_45/reg_a_reg/ADDRARDADDR[11]
+                                                              -0.103        
+stage12_inp_reg[381]/C         stage13/op_pair_139_143/reg_a_reg/ADDRARDADDR[9]
+                                                              -0.005        
+stage12_inp_reg[257]/C         stage13/op_pair_139_143/reg_a_reg/ADDRBWRADDR[9]
+                                                              0.006         
+stage16/v187_reg[0]/C          stage17/op_135/readout_reg/ADDRARDADDR[9]
+                                                              0.013         
+stage6/v8_reg[1]/C             stage7/op_9/readout_reg/ADDRARDADDR[6]
+                                                              0.016         
+stage16/v187_reg[0]/C          stage17/op_135/readout_reg/ADDRARDADDR[10]
+                                                              0.017         
+stage12_inp_reg[298]/C         stage13/op_pair_253_265/reg_a_reg/ADDRBWRADDR[12]
+                                                              0.022         
+stage3/v113_reg[0]__0/C        stage4/v117_reg[5]/D           0.024         
+stage8_inp_reg[91]/C           stage9_inp_reg[723]_replica_3/D
+                                                              0.025         
+stage12_inp_reg[298]/C         stage13/op_pair_253_265/reg_a_reg/ADDRBWRADDR[11]
+                                                              0.029         
+stage9_inp_reg[1319]/C         stage10_inp_reg[1546]/D        0.030         
+stage12_inp_reg[298]/C         stage13/op_pair_255_257/reg_a_reg/ADDRBWRADDR[12]
+                                                              0.033         
+stage12_inp_reg[381]/C         stage13/op_pair_139_143/reg_a_reg/ADDRARDADDR[10]
+                                                              0.033         
+stage9_inp_reg[1319]/C         stage10_inp_reg[1547]/D        0.034         
+stage9_inp_reg[722]_replica_3/C
+                               stage10_inp_reg[1522]/D        0.037         
+stage6/v8_reg[1]/C             stage7/op_9/readout_reg/ADDRARDADDR[8]
+                                                              0.042         
+stage6/v0_reg[3]/C             stage7/op_pair_29_45/reg_a_reg/ADDRBWRADDR[9]
+                                                              0.048         
+stage9_inp_reg[722]_replica_3/C
+                               stage10_inp_reg[1523]/D        0.048         
+stage12_inp_reg[298]/C         stage13/op_260/readout_reg/ADDRARDADDR[11]
+                                                              0.048         
+stage8_inp_reg[91]/C           stage9_inp_reg[722]_replica_3/D
+                                                              0.048         
+stage12_inp_reg[298]/C         stage13/op_pair_99_119/reg_a_reg/ADDRARDADDR[10]
+                                                              0.049         
+accum_carry_i_5__292_psbram/C  stage3/op_pair_1664_1682/reg_a_reg/ADDRARDADDR[9]
+                                                              0.050         
+stage8_inp_reg[91]/C           stage9_inp_reg[722]_replica_4/D
+                                                              0.050         
+stage16/v176_reg[4]/C          stage17/v125_reg[6]/D          0.052         
+stage12_inp_reg[272]/C         stage13/op_276/readout_reg/ADDRARDADDR[11]
+                                                              0.054         
+stage15_inp_reg[70]/C          stage16/op_75/readout_reg/ADDRARDADDR[10]
+                                                              0.054         
+stage3/v113_reg[0]__0/C        stage4/v117_reg[7]/D           0.056         
+stage12_inp_reg[298]/C         stage13/op_pair_99_119/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.058         
+stage6/v0_reg[3]/C             stage7/op_22/readout_reg/ADDRARDADDR[10]
+                                                              0.060         
+stage12_inp_reg[298]/C         stage13/op_pair_255_257/reg_a_reg/ADDRBWRADDR[11]
+                                                              0.061         
+stage8_inp_reg[57]/C           stage9_inp_reg[74]_rep_replica/D
+                                                              0.066         
+stage6/v8_reg[1]/C             stage7/op_pair_29_45/reg_a_reg/ADDRARDADDR[7]
+                                                              0.066         
+stage12_inp_reg[298]/C         stage13/op_pair_253_265/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.067         
+stage6/v0_reg[3]/C             stage7/op_22/readout_reg/ADDRARDADDR[9]
+                                                              0.068         
+accum_carry_i_5__292_psbram/C  stage3/op_pair_1664_1682/reg_a_reg/ADDRARDADDR[10]
+                                                              0.071         
+stage12_inp_reg[298]/C         stage13/op_276/readout_reg/ADDRARDADDR[13]
+                                                              0.071         
+stage9_inp_reg[722]_replica_3/C
+                               stage10_inp_reg[1521]/D        0.072         
+stage10_inp_reg[548]/C         stage11_inp_reg[573]/D         0.075         
+stage16/v180_reg[1]/C          stage17/op_pair_128_137/reg_a_reg/ADDRBWRADDR[6]
+                                                              0.082         
+stage9_inp_reg[70]/C           stage10_inp_reg[790]/D         0.082         
+stage16/v91_reg[4]/C           stage17/op_pair_6_58/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.087         
+stage12_inp_reg[272]/C         stage13/op_276/readout_reg/ADDRARDADDR[9]
+                                                              0.087         
+stage6/v8_reg[1]/C             stage7/op_pair_29_45/reg_a_reg/ADDRARDADDR[4]
+                                                              0.087         
+stage12_inp_reg[272]/C         stage13/op_pair_99_119/reg_a_reg/ADDRBWRADDR[7]
+                                                              0.088         
+stage12_inp_reg[257]/C         stage13/op_231/readout_reg/ADDRARDADDR[10]
+                                                              0.088         
+stage3/v889_reg[0]/C           stage4/v597_reg[6]/D           0.090         
+stage12_inp_reg[257]/C         stage13/op_pair_156_222/reg_a_reg/ADDRARDADDR[9]
+                                                              0.092         
+stage3/v889_reg[0]/C           stage4/v597_reg[5]/D           0.092         
+stage2_inp_reg[291]/C          stage3/op_525/readout_reg/ADDRARDADDR[10]
+                                                              0.094         
+stage12_inp_reg[272]/C         stage13/op_276/readout_reg/ADDRARDADDR[10]
+                                                              0.095         
+stage12_inp_reg[272]/C         stage13/op_pair_99_119/reg_a_reg/ADDRBWRADDR[9]
+                                                              0.095         
+stage6/v8_reg[1]/C             stage7/op_pair_29_45/reg_a_reg/ADDRARDADDR[8]
+                                                              0.097         
+stage9_inp_reg[1319]/C         stage10_inp_reg[2031]/D        0.100         
+stage10_inp_reg[548]/C         stage11_inp_reg[574]/D         0.101         
+stage5/v269_reg[0]/C           stage6/op_75/readout_reg/ADDRARDADDR[10]
+                                                              0.102         
+stage9_inp_reg[70]/C           stage10_inp_reg[789]/D         0.102         
+stage12_inp_reg[272]/C         stage13/op_pair_99_119/reg_a_reg/ADDRARDADDR[7]
+                                                              0.105         
+stage9_inp_reg[70]/C           stage10_inp_reg[788]/D         0.105         
+stage9_inp_reg[717]_replica/C  stage10_inp_reg[1478]/D        0.106         
+stage1/v1848_reg[2]/C          stage2_inp_reg[6480]/D         0.107         
+stage2_inp_reg[435]/C          stage3/op_pair_1664_1682/reg_a_reg/ADDRARDADDR[4]
+                                                              0.107         
+stage12_inp_reg[298]/C         stage13/op_233/readout_reg/ADDRARDADDR[11]
+                                                              0.108         
+stage9_inp_reg[70]/C           stage10_inp_reg[786]/D         0.108         
+stage3/v113_reg[0]__0/C        stage4/v117_reg[6]/D           0.109         
+stage12_inp_reg[272]/C         stage13/op_pair_253_265/reg_a_reg/ADDRBWRADDR[7]
+                                                              0.109         
+stage12_inp_reg[272]/C         stage13/op_276/readout_reg/ADDRARDADDR[12]
+                                                              0.111         
+stage8_inp_reg[91]/C           stage9_inp_reg[722]/D          0.112         
+stage8_inp_reg[91]/C           stage9_inp_reg[722]_replica_5/D
+                                                              0.112         
+stage3/v18_reg[2]/C            stage4/v16_reg[4]/D            0.114         
+stage9_inp_reg[722]/C          stage10_inp_reg[1126]/D        0.115         
+stage12_inp_reg[272]/C         stage13/op_pair_99_119/reg_a_reg/ADDRARDADDR[9]
+                                                              0.116         
+stage12_inp_reg[339]/C         stage13/op_pair_135_226/reg_a_reg/ADDRBWRADDR[9]
+                                                              0.116         
+stage9_inp_reg[722]/C          stage10_inp_reg[1274]/D        0.118         
+stage3/v259_reg[3]/C           stage4/op_pair_52_54/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.118         
+stage9_inp_reg[70]/C           stage10_inp_reg[787]/D         0.120         
+stage9_inp_reg[722]/C          stage10_inp_reg[1272]/D        0.121         
+stage12_inp_reg[298]/C         stage13/op_pair_255_257/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.121         
+stage3/v259_reg[3]/C           stage4/op_pair_52_54/reg_a_reg/ADDRBWRADDR[8]
+                                                              0.122         
+stage3/v259_reg[3]/C           stage4/op_pair_52_54/reg_a_reg/ADDRBWRADDR[9]
+                                                              0.122         
+stage0_inp_reg[1596]/C         stage1/v1277_reg[4]/D          0.122         
+stage12_inp_reg[257]/C         stage13/op_pair_156_222/reg_a_reg/ADDRARDADDR[10]
+                                                              0.125         
+stage12_inp_reg[339]/C         stage13/op_pair_135_226/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.126         
+stage12_inp_reg[298]/C         stage13/op_280/readout_reg/ADDRARDADDR[14]
+                                                              0.126         
+stage6/v0_reg[3]/C             stage7/op_pair_38_40/reg_a_reg/ADDRARDADDR[10]
+                                                              0.127         
+stage0_inp_reg[2185]/C         stage2_inp_reg[2039]_srl2/D    0.128         
+stage13/v5_reg[5]/C            stage14/op_9/readout_reg/ADDRARDADDR[9]
+                                                              0.129         
+stage6/v0_reg[3]/C             stage7/op_pair_29_45/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.129         
+stage16/v176_reg[4]/C          stage17/v105_reg[4]/D          0.129         
+stage6/v8_reg[1]/C             stage7/op_9/readout_reg/ADDRARDADDR[7]
+                                                              0.130         
+stage8_inp_reg[57]/C           stage9_inp_reg[74]/D           0.131         
+stage12_inp_reg[298]/C         stage13/op_pair_215_224/reg_a_reg/ADDRARDADDR[11]
+                                                              0.131         
+stage5/v269_reg[0]/C           stage6/op_75/readout_reg/ADDRARDADDR[5]
+                                                              0.131         
+stage16/v180_reg[1]/C          stage17/op_pair_128_137/reg_a_reg/ADDRBWRADDR[11]
+                                                              0.131         
+stage9_inp_reg[722]/C          stage10_inp_reg[1273]/D        0.132         
+stage12_inp_reg[257]/C         stage13/op_pair_139_143/reg_a_reg/ADDRBWRADDR[10]
+                                                              0.132         
+stage8_inp_reg[91]/C           stage9_inp_reg[723]/D          0.133         
+
+
+

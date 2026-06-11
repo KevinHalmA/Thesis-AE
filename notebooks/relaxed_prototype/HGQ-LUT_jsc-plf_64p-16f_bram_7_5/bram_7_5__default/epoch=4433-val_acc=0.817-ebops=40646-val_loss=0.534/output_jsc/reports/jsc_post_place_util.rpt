@@ -1,0 +1,29 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date         : Thu Jun 11 21:31:27 2026
+| Host         : KHA-PC running 64-bit Ubuntu 25.10
+| Command      : report_utilization -hierarchical -file /home/kevin/Dev/Imperial/HGQ-LUT-AE/test_notebooks/bram_7_5__default/epoch=4433-val_acc=0.817-ebops=40646-val_loss=0.534/output_jsc/reports/jsc_post_place_util.rpt
+| Design       : jsc
+| Device       : xczu7ev-ffvc1156-2-e
+| Speed File   : -2
+| Design State : Physopt postPlace
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------+--------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| Instance | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | URAM | DSP Blocks |
++----------+--------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| jsc      |  (top) |      33094 |      30101 |       0 | 2993 | 45236 |      2 |    195 |    0 |          0 |
++----------+--------+------------+------------+---------+------+-------+--------+--------+------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

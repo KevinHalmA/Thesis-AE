@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<POWERDATA author="Vivado Power Analysis" dataVersion="2025.1" design="jsc" designState="routed" date="Thu Jun 11 21:31:50 2026" pwrOpt="None" activityLevel="vectorless">
+	<ENVIRONMENT>
+		<DEVICE part="xczu7ev" grade="extended" package="ffvc1156" speed="-2" process="typical" vid="No">
+		</DEVICE>
+		<VOLTAGESOURCES>
+			<SOURCE name="Vccbram" voltage="0.850000" icc="0.058549" iccq="0.002079" power="0.051533">
+			</SOURCE>
+			<SOURCE name="Vccint" voltage="0.850000" icc="4.968261" iccq="0.161118" power="4.359972">
+			</SOURCE>
+			<SOURCE name="Vccaux" voltage="1.800000" icc="0.000000" iccq="0.146625" power="0.263926">
+			</SOURCE>
+			<SOURCE name="Vccint_io" voltage="0.850000" icc="0.000000" iccq="0.071355" power="0.060652">
+			</SOURCE>
+			<SOURCE name="Vccaux_io" voltage="1.800000" icc="0.000000" iccq="0.055033" power="0.099059">
+			</SOURCE>
+			<SOURCE name="Vccadc" voltage="1.800000" icc="0.000000" iccq="0.008000" power="0.014400">
+			</SOURCE>
+			<SOURCE name="VCC_PSINTLP" voltage="0.850000" icc="0.000000" iccq="0.005550" power="0.004717">
+			</SOURCE>
+			<SOURCE name="VCC_PSPLL" voltage="1.200000" icc="0.000000" iccq="0.001500" power="0.001800">
+			</SOURCE>
+			<SOURCE name="VCC_PSAUX" voltage="1.800000" icc="0.000000" iccq="0.002200" power="0.003960">
+			</SOURCE>
+			<SOURCE name="VCC_PSADC" voltage="1.800000" icc="0.000000" iccq="0.001500" power="0.002700">
+			</SOURCE>
+			<SOURCE name="VCC_PSBATT" voltage="1.200000" icc="0.000000" iccq="0.000000" power="0.000000">
+			</SOURCE>
+			<SOURCE name="VCCINT_VCU" voltage="0.900000" icc="0.000000" iccq="0.028322" power="0.025489">
+			</SOURCE>
+		</VOLTAGESOURCES>
+		<THERMAL>
+			<AMBIENT value="25.000000">
+			</AMBIENT>
+			<AIRFLOW value="250.000000">
+			</AIRFLOW>
+			<HEATSINK value="medium (Medium Profile)">
+			</HEATSINK>
+			<BOARDSELECTION value="medium (10&quot;x10&quot;)">
+			</BOARDSELECTION>
+			<BOARDLAYERS value="12to15 (12 to 15 Layers)">
+			</BOARDLAYERS>
+			<TSA value="1.500000">
+			</TSA>
+			<TJB value="2.390000">
+			</TJB>
+			<BOARDTEMP value="25.0 (C)">
+			</BOARDTEMP>
+			<JUNCTION value="29.8 (C)">
+			</JUNCTION>
+		</THERMAL>
+	</ENVIRONMENT>
+	<BLOCKDETAILS>
+		<BYTYPE>
+			<BLOCKTYPE name="Clocks">
+				<CLOCK name="clk" freq="400.000002" belFanout="30396" sliceFanout="10751" FoPerSite="2.827272" sliceEnableRate="0.915778" leafs="0.000000" hrows="0.000000" power="0.428037">
+				</CLOCK>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="LOGIC">
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="400.000002" clockFreq2="400.000002" toggleRate="61.754996" toggleRate2="36.451793" totalRate="2781626.017866" name="sys_clk" hierName="jsc" writeRate="0.000000" enableRate="0.000000" fanout="2.992101" ru="8.707623" fanout2="2.992101" totalFanout="68941.000000" fanoutRate="6816428.756858" numNets="44031" extNets="23041" SMUX="148" carry8s="849" luts="30024" logicCap="19657479448" signalCap="8002029.433445" power="1.304893" sp="0.610383">
+				</LOGIC>
+				<LOGIC clock="clk" clockFreq="400.000002" clockFreq2="400.000002" toggleRate="77.126509" toggleRate2="43.624244" totalRate="102735.095322" name="sys_clk" hierName="jsc" writeRate="0.000000" enableRate="1.000000" fanout="1.000000" ru="8.012720" fanout2="1.000000" totalFanout="2363.000000" fanoutRate="205470.191893" numNets="2363" extNets="2363" SRL="2100" logicCap="1985905203" signalCap="1128485.241066" power="0.196560" sp="0.073268">
+				</LOGIC>
+				<LOGIC clock="clk" clockFreq="400.000002" clockFreq2="400.000002" toggleRate="34.596214" toggleRate2="34.623635" totalRate="961048.240795" name="sys_clk" hierName="jsc" writeRate="0.000000" enableRate="1.000000" fanout="3.527071" ru="10.862100" fanout2="3.528248" totalFanout="97781.000000" fanoutRate="5835804.321256" numNets="27779" extNets="27723" ffs="27779" logicCap="1936328369" signalCap="11311624.853168" power="0.096877" sp="0.556233">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="400.000002" clockFreq2="184.954935" toggleRate="47.612161" toggleRate2="48.874256" totalRate="72364.495929" name="High_Fanout_Nets" hierName="jsc" writeRate="0.000000" enableRate="1.000000" fanout="9.292402" ru="27.321510" fanout2="9.302310" totalFanout="13697.000000" fanoutRate="1335769.753987" numNets="1474" extNets="1474" carry8s="179" ffs="57" luts="44" logicCap="132385743" signalCap="2026878.696381" power="0.008752" sp="0.142141">
+				</LOGIC>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="BRAM">
+				<MODULE name="jsc|clk" count="44">
+					<GROUPSUMMARY>
+						<BRAM name="jsc|clk" mode="RAMB18" cascade="1" toggleRate="8.521379" power="0.095625" sp="0.012535" vccbram="0.006339" vccint="0.089286">
+							<RAMPORT name="A" clock="clk" clockFreq="400.000002" readWidth="18" writeWidth="18" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="&lt;const0&gt;" clockFreq="0.000000" readWidth="0" writeWidth="0" enableRate="0.000000" writeMode="WRITE_FIRST" writeRate="1.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="jsc|clk" count="1">
+					<GROUPSUMMARY>
+						<BRAM name="jsc|clk" mode="RAMB18" cascade="1" toggleRate="2.940458" power="0.002076" sp="0.000130" vccbram="0.000144" vccint="0.001932">
+							<RAMPORT name="A" clock="clk" clockFreq="400.000002" readWidth="4" writeWidth="4" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="&lt;const0&gt;" clockFreq="0.000000" readWidth="0" writeWidth="0" enableRate="0.000000" writeMode="WRITE_FIRST" writeRate="1.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="jsc|clk" count="2">
+					<GROUPSUMMARY>
+						<BRAM name="jsc|clk" mode="RAMB18" cascade="1" toggleRate="9.482547" power="0.004380" sp="0.000504" vccbram="0.000288" vccint="0.004092">
+							<RAMPORT name="A" clock="clk" clockFreq="400.000002" readWidth="9" writeWidth="9" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="&lt;const0&gt;" clockFreq="0.000000" readWidth="0" writeWidth="0" enableRate="0.000000" writeMode="WRITE_FIRST" writeRate="1.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="jsc|clk" count="147">
+					<GROUPSUMMARY>
+						<BRAM name="jsc|clk" mode="RAMB18" cascade="1" toggleRate="12.231313" power="0.657986" sp="0.068393" vccbram="0.042357" vccint="0.615629">
+							<RAMPORT name="A" clock="clk" clockFreq="400.000002" readWidth="18" writeWidth="18" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="clk" clockFreq="400.000002" readWidth="18" writeWidth="0" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="jsc|clk" count="1">
+					<GROUPSUMMARY>
+						<BRAM name="jsc|clk" mode="RAMB18" cascade="1" toggleRate="15.202531" power="0.004580" sp="0.000933" vccbram="0.000288" vccint="0.004292">
+							<RAMPORT name="A" clock="clk" clockFreq="400.000002" readWidth="9" writeWidth="9" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="clk" clockFreq="400.000002" readWidth="9" writeWidth="0" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="jsc|clk" count="2">
+					<GROUPSUMMARY>
+						<BRAM name="jsc|clk" mode="RAMB36" cascade="1" toggleRate="5.554199" power="0.007745" sp="0.000757" vccbram="0.000350" vccint="0.007395">
+							<RAMPORT name="A" clock="clk" clockFreq="400.000002" readWidth="9" writeWidth="9" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="&lt;const0&gt;" clockFreq="0.000000" readWidth="0" writeWidth="0" enableRate="0.000000" writeMode="WRITE_FIRST" writeRate="1.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="IOBANK">
+				<IOBANK numInternalVref="0" numDelayControl="0" numLVDSBanks="0">
+				</IOBANK>
+			</BLOCKTYPE>
+		</BYTYPE>
+	</BLOCKDETAILS>
+</POWERDATA>
+

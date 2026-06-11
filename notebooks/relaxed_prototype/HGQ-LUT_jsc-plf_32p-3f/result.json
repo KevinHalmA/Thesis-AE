@@ -1,0 +1,48 @@
+{
+  "model": "HGQ-LUT (GNN) \u2014 PLF JSC, 32 particles, 3 features",
+  "family": "jsc_plf",
+  "part": "xcau7p-sbvc484-2-e",
+  "part_capacity": {
+    "lut": 37440,
+    "ff": 74880,
+    "bram": 108,
+    "dsp": 216
+  },
+  "constraint": "fit_exact_part",
+  "clock_period_ns": 3,
+  "latency_cutoff_ns": 2.5,
+  "baseline_lut_tableIII": 41594,
+  "budget": {
+    "lut": 37440,
+    "ff": 74880,
+    "bram": 108,
+    "dsp": 216
+  },
+  "usable_after_margins": {
+    "lut": 33696.0,
+    "ff": 63648.0,
+    "bram": 102.6,
+    "dsp": 205.2
+  },
+  "lut_budget": 37440,
+  "comb_cost": 45895.6,
+  "a0_predicted_lut": 39246.09000000001,
+  "feasible": true,
+  "binding": [],
+  "chosen_config": "bram(8, 8)_dsp-_rlx",
+  "predicted": {
+    "lut": 33361.95517112429,
+    "ff": 18357.34386879823,
+    "bram": 38.5,
+    "dsp": 0.0,
+    "latency": 19
+  },
+  "confirm": {
+    "lut": 35227.0,
+    "ff": 24371.0,
+    "bram": 38.5,
+    "dsp": 0.0,
+    "wns": -0.385,
+    "fmax": 295.4209748892172
+  }
+}

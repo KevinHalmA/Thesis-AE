@@ -1,0 +1,3 @@
+variant,stages,shared_stages,n_bram_lookups,lut_total,lut_logic,lut_memory,ff,bram_tile,dsp,wns_pp,fmax_pp_MHz,wns_pr,fmax_pr_MHz,latency_ns,status
+default,30,1,344,33094.0,30101.0,2993.0,45236.0,99.5,0.0,-0.091,385.95137012736393,-0.155,376.64783427495297,79.64999999999999,timing_fail
+relaxed,22,11,344,32162.0,30062.0,2100.0,27836.0,99.5,0.0,-0.101,384.46751249519417,-0.258,362.58158085569255,60.676,timing_fail

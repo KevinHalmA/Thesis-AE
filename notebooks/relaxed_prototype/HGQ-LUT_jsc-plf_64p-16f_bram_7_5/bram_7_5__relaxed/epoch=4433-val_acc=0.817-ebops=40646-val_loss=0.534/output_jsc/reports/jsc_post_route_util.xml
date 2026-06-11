@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RptDoc cmdline="report_utilization -format xml -hierarchical -file /home/kevin/Dev/Imperial/HGQ-LUT-AE/test_notebooks/bram_7_5__relaxed/epoch=4433-val_acc=0.817-ebops=40646-val_loss=0.534/output_jsc/reports/jsc_post_route_util.xml" designname="jsc" designstate="Routed" partname="xczu7ev-ffvc1156-2-e" speedfile="-2" title="Utilization Design Information" version="1">
+
+  <section class="" title="Utilization by Hierarchy">
+    <table class="" style="2" title="" useFootnoteNumbers="0">
+      <footnote text="Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining"/>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tableheader class="" contents="Instance" halign="3" width="-1"/>
+        <tableheader class="" contents="Module" halign="3" width="-1"/>
+        <tableheader class="" contents="Total LUTs" halign="3" width="-1"/>
+        <tableheader class="" contents="Logic LUTs" halign="3" width="-1"/>
+        <tableheader class="" contents="LUTRAMs" halign="3" width="-1"/>
+        <tableheader class="" contents="SRLs" halign="3" width="-1"/>
+        <tableheader class="" contents="FFs" halign="3" width="-1"/>
+        <tableheader class="" contents="RAMB36" halign="3" width="-1"/>
+        <tableheader class="" contents="RAMB18" halign="3" width="-1"/>
+        <tableheader class="" contents="URAM" halign="3" width="-1"/>
+        <tableheader class="" contents="DSP Blocks" halign="3" width="-1"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="jsc" halign="1" type="string"/>
+        <tablecell class="" contents="(top)" halign="4" type="string"/>
+        <tablecell class="" contents="32162" halign="4" type="string"/>
+        <tablecell class="" contents="30062" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="2100" halign="4" type="string"/>
+        <tablecell class="" contents="27836" halign="4" type="string"/>
+        <tablecell class="" contents="2" halign="4" type="string"/>
+        <tablecell class="" contents="195" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+    </table>
+  </section>
+
+</RptDoc>
