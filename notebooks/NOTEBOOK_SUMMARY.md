@@ -2,8 +2,7 @@
 
 Each folder holds one self-contained `fit.ipynb` that uses **`da4ml.pack.fit_model`**
 to map an **HGQ-\*** model (Table III) onto an FPGA by offloading lookups→BRAM /
-adders→DSP (bit-exact). Shared method + model registry: [`_fit_common.py`](_fit_common.py). Full
-method writeup: [`README.md`](README.md).
+adders→DSP (bit-exact). Shared method + model registry: [`_fit_common.py`](_fit_common.py). Contents and reproduction: [`README.md`](README.md).
 
 ## The four fit notebooks
 
